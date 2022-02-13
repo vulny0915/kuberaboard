@@ -1,2 +1,2 @@
 # kuberaboard
-image board with thumbnail
+image board
