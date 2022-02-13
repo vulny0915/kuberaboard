@@ -25,10 +25,7 @@ if(user == null) {
 		
 		String savePath = "/usr/local/tomcat/webapps/codegate/upload";
 		
-		
-		//String savePath = "C:\\Users\\USER\\eclipse-workspace\\workspace3\\codegate\\src\\main\\webapp\\upload";
-		
-		SimpleDateFormat dtf = new SimpleDateFormat("yyyyMMddhhmmss");
+		SimpleDateFormat dtf = new SimpleDateFormat("yyyyMMddHHmmss");
 		Calendar calendar = Calendar.getInstance();
 		int size=10*1024*1024;
 	
