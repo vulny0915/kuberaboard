@@ -92,5 +92,5 @@ request.setAttribute("vo", vo);
 	<script src="http://code.jquery.com/jquery-3.1.1.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 </body>
-<!-- <footer> © 2022 kuberaBoard GitHub, inc. image board development by kubera. </footer>  -->
+<!-- <footer> © 2022 <a href="https://github.com/vulny0915/kuberaboard">kuberaBoard GitHub</a>, inc. image board development by kubera. </footer>  -->
 </html>
