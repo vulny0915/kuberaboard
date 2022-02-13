@@ -23,7 +23,7 @@
 			return;
 		}
 		
-		SimpleDateFormat dtf = new SimpleDateFormat("yyyyMMddhhmmss");
+		SimpleDateFormat dtf = new SimpleDateFormat("yyyyMMddHHmmss");
 		Calendar calendar = Calendar.getInstance();
 		BoardVO vo = new BoardVO();
 		BoardDAO dao = new BoardDAO();
@@ -34,8 +34,6 @@
 		String savePath = "/usr/local/tomcat/webapps/codegate/upload";
 
 		
-		
-		//String savePath = "C:\\Users\\USER\\eclipse-workspace\\workspace3\\codegate\\src\\main\\webapp\\upload";
 		
 		Date dateObj = calendar.getTime();
 		String formattedDate = dtf.format(dateObj);
